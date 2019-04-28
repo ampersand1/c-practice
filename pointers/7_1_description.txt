@@ -1,0 +1,18 @@
+get name 
+set_best_friend()
+
+Implement a class Person with the following fields:
+the name
+a pointer to the person's best friend (a Person*)
+a popularity counter that indicates how many other people have this
+person as their best friend.
+
+Write a program that reads in a list of names, allocates a new Person for each
+of them, and stores them in a vector<Person*>.
+
+Then ask the name of the bestfriend for each of the Person objects.
+Locate the object matching the friend's name and call a set_best_friend
+member function to update the pointer and counter. Finally, print out all person
+objects, listing the name, best friend, and popularity counter for each.
+name and call.
+
